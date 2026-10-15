@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John Russel S Tablizo | BSIT 1C</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#111820;color:#f4f7fa}
+body:before,body:after{content:"";position:fixed;z-index:-1;border-radius:50%;filter:blur(2px);opacity:.18}
+body:before{width:420px;height:420px;right:-130px;top:90px;background:#4b79a1}
+body:after{width:350px;height:350px;left:-120px;bottom:40px;background:#294b73}
+nav{position:fixed;top:0;width:100%;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:18px 7%;background:rgba(12,18,25,.94);border-bottom:1px solid #263441}
+.logo{font-weight:800;letter-spacing:3px;font-size:20px}
+nav a{color:#b9c5d0;text-decoration:none;margin-left:25px;font-size:14px;font-weight:bold}
+nav a:hover{color:white}
+.hero{min-height:100vh;padding:120px 8% 80px;display:flex;align-items:center;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:600px;height:600px;border:1px solid #344755;border-radius:50%;right:-180px;top:10%;box-shadow:0 0 0 45px rgba(255,255,255,.015),0 0 0 90px rgba(255,255,255,.01)}
+.hero-inner{width:min(1050px,100%);margin:auto}
+.kicker{color:#8eafca;font-size:14px;letter-spacing:4px;font-weight:bold;margin-bottom:20px}
+h1{font-size:clamp(44px,7vw,88px);line-height:.98;max-width:850px;margin-bottom:25px}
+.intro{max-width:700px;color:#aebbc7;font-size:19px;line-height:1.7}
+.info{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
+.info span{padding:12px 18px;border:1px solid #344654;background:#19232d;border-radius:6px;color:#d9e2e9}
+section{padding:100px 8%;border-top:1px solid #263441}
+.inner{width:min(1050px,100%);margin:auto}
+.eyebrow{color:#7898b1;letter-spacing:3px;font-size:12px;font-weight:bold;margin-bottom:12px}
+h2{font-size:42px;margin-bottom:28px}
+.grid{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+.card{background:#18222c;border:1px solid #2b3a47;border-radius:10px;padding:32px;min-height:210px;box-shadow:0 15px 40px rgba(0,0,0,.22)}
+.card h3{font-size:25px;margin-bottom:15px}
+.card p{color:#adbac5;font-size:17px;line-height:1.75}
+.quote{font-size:25px!important;line-height:1.6!important;color:#edf2f6!important;font-style:italic}
+.ball{font-size:75px;margin-bottom:10px}
+.tags{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.tags span{border:1px solid #405363;padding:8px 12px;border-radius:20px;color:#b9c7d2;font-size:13px}
+footer{text-align:center;padding:35px;color:#7f8e9a;background:#0c1218;border-top:1px solid #263441}
+@media(max-width:750px){
+nav{padding:16px 5%}.links{display:none}
+.hero{padding:110px 7% 70px}.grid{grid-template-columns:1fr}
+section{padding:70px 7%}h2{font-size:34px}
+}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">JRST</div>
+<div class="links"><a href="#about">ABOUT</a><a href="#sport">SPORT</a><a href="#quotes">QUOTES</a></div>
+</nav>
+
+<header class="hero">
+<div class="hero-inner">
+<div class="kicker">PERSONAL PROFILE / INFORMATION TECHNOLOGY</div>
+<h1>John Russel<br>S Tablizo</h1>
+<p class="intro">A simple personal website introducing me as an Information Technology student, my interests, and the sport that motivates me.</p>
+<div class="info"><span>AGE 19</span><span>YEAR &amp; COURSE BSIT 1C</span></div>
+</div>
+</header>
+
+<section id="about">
+<div class="inner">
+<div class="eyebrow">01 — INFORMATION TECHNOLOGY</div>
+<h2>Technology &amp; Ideas</h2>
+<div class="grid">
+<div class="card"><p class="quote">“Information Technology is not just about technology; it is about using technology to create solutions, connect people, and make life better.”</p></div>
+<div class="card"><h3>My Perspective</h3><p>As a BSIT student, I want to learn how technology can turn ideas into useful solutions and help people in everyday life.</p><div class="tags"><span>TECHNOLOGY</span><span>CREATIVITY</span><span>LEARNING</span></div></div>
+</div>
+</div>
+</section>
+
+<section id="sport">
+<div class="inner">
+<div class="eyebrow">02 — FAVORITE SPORT</div>
+<h2>Basketball</h2>
+<div class="grid">
+<div class="card"><div class="ball">🏀</div><h3>My Favorite Sport</h3><p>Basketball keeps me active and teaches teamwork, discipline, focus, and perseverance. It is also a great way to enjoy time with friends.</p></div>
+<div class="card"><h3>What Basketball Teaches</h3><p>Every game is a reminder that improvement takes practice. You miss shots, learn from mistakes, work with your team, and keep moving forward.</p></div>
+</div>
+</div>
+</section>
+
+<section id="quotes">
+<div class="inner">
+<div class="eyebrow">03 — BASKETBALL QUOTE</div>
+<h2>Keep Moving Forward</h2>
+<div class="card">
+<p class="quote">“Success on the court comes from hard work, teamwork, discipline, and never giving up.”</p>
+</div>
+</div>
+</section>
+
+<footer>© 2026 John Russel S Tablizo • BSIT 1C</footer>
+</body>
+</html>
